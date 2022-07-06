@@ -1,0 +1,24 @@
+{
+  "name": "gpt3-custom-model",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "server": "^1.0.37",
+    "snoowrap": "^1.23.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luiscaro3/gpt3-custom-model.git"
+  },
+  "author": "Luis Caro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luiscaro3/gpt3-custom-model/issues"
+  },
+  "homepage": "https://github.com/luiscaro3/gpt3-custom-model#readme"
+}
