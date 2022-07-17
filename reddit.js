@@ -1,11 +1,12 @@
 const snoowrap = require('snoowrap');
 
-const initAPI = (token) => {
-  const r = new snoowrap({
-    userAgent: 'Suspicious-Novel-412',
-    clientId: 'INwhUBiP5GHYBrU2BXBtvQ',
-    clientSecret: 'QlOJqDioyKWjcq-yvGAf7B1AbaHBVg',
-    refreshToken: token
+const initAPI = () => {
+  return new snoowrap({
+    userAgent: 'chrome:ReadMeClient:v0.1 by /u/Suspicious-Novel-412',
+    clientId: '_9ffanHdAj_kXDgL0quzWA',
+    clientSecret: 'Ha4Qr8PEv_sE4yYpS25gzfyipJQwSg',
+    username: 'Suspicious-Novel-412',
+    password: '=_umj&s5@XQ4Lq/',
   });
 }
 
