@@ -15,7 +15,8 @@ if(myArgs[0] === '--web') {
 		error(ctx => status(500).send(ctx.error.message))
 	]);
 } else {
-	setInterval(initAPI, 1000 * 15)
+	initAPI()
+	setInterval(initAPI, 1000 * 60 * 60 * 4)
 }
 
 
